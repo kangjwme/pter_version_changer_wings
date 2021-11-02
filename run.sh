@@ -1,3 +1,4 @@
+apt install zip -y
 mkdir /srv/wings && cd /srv/wings
 wget https://github.com/pterodactyl/wings/archive/refs/tags/v1.5.3.zip
 unzip v1.5.3.zip

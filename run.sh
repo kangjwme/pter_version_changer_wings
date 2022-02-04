@@ -1,9 +1,9 @@
 apt install unzip -y
 mkdir /srv/wings && cd /srv/wings
-wget https://github.com/pterodactyl/wings/archive/refs/tags/v1.5.3.zip
-unzip v1.5.3.zip
-rm -rf v1.5.3.zip
-mv wings-1.5.3/* ./
+wget https://github.com/pterodactyl/wings/archive/refs/tags/v1.5.4.zip
+unzip v1.5.4.zip
+rm -rf v1.5.4.zip
+mv wings-1.5.4/* ./
 cd router
 rm -rf router.go
 wget https://raw.githubusercontent.com/kangjwme/pter_version_changer_wings/main/router.go
